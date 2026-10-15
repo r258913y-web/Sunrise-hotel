@@ -1,0 +1,81 @@
+/* Styles for the About page (about.html) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header and navigation */
+header {
+  background-color: #1b3a57;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  padding: 5px 0;
+}
+
+nav a:hover,
+nav a.active {
+  border-bottom: 2px solid #f4b400;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+main h2 {
+  color: #1b3a57;
+  margin-bottom: 15px;
+}
+
+main p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  background-color: white;
+  border-left: 5px solid #f4b400;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+  color: #2e6da4;
+  margin-bottom: 10px;
+}
+
+.info-box ul {
+  margin-left: 20px;
+  line-height: 1.8;
+}
+
+/* Footer */
+footer {
+  background-color: #1b3a57;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
